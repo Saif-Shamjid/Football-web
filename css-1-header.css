@@ -1,0 +1,58 @@
+
+/* ------------------------------------------
+                Header style 
+--------------------------------------------*/
+header{
+    background-color: var(--header-bg-color);
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-section-container{
+    width: 1143.01px;
+    display: flex;
+    margin-top: 67px;
+    margin-bottom: 86px;
+}
+
+.welcome-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--header-text-color);
+}
+
+.welcome-info h1{
+    margin-top: 0;
+    margin-bottom:27px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    /* cursor: pointer; */
+}
+
+.btn-container span{
+    margin-right: 8px;
+}
+
+.welcome-section-container img{
+    height: 438px;
+    width: 556.01px;
+    margin-left: 102px;
+
+     /* transition for hover effect  */
+    transition: 1s ease-in-out;
+}
+
+/* -------------------------------
+            hover effect
+---------------------------------*/
+header:hover .welcome-section-container-img{
+    transform: scale(1.2);
+}

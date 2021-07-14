@@ -1,0 +1,66 @@
+/*------------------------------------
+ all utility 
+ -------------------------------------*/
+
+/*                  Font Poppins                */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*               all variables          */
+:root {
+    --header-bg-color: #2D25A0;
+    --all-btn-bg-color: #E02C6D;
+    --header-text-color: #FFFFFF;
+    --btn-text-color: #FFFFFF;
+    --mainbody-bg-color: #f3f1ff;
+    --small-text-color: #6C6C6C;
+    --coustom-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff;
+    --colum-gap: 30px;
+    --row-gap: 27px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--mainbody-bg-color);
+    margin: 0;
+    padding:0;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-bottom: 63px;
+}
+
+
+.container {
+    margin-top:70px;
+    width:1050px;
+}
+
+
+
+.btn {
+    padding: 10px 24px;
+    background-color: var(--all-btn-bg-color);
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+p{
+    font-size:16px;
+    font-weight:normal;
+    color:var(--small-text-color);
+}

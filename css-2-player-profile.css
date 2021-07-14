@@ -1,0 +1,20 @@
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.player{
+    box-shadow: var(--coustom-shadow);
+}
+.player img{
+    height: 256px;
+    width: 300px;
+}
+
+.player-info h2{
+    margin-top: 16px;
+    font-weight:bold;
+    font-size:28px;
+    margin-bottom: 10px;
+}
